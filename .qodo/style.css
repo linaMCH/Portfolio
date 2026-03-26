@@ -357,10 +357,15 @@ body.dark-mode .tag {
 .project-card {
     background: var(--card-bg);
     border-radius: 20px;
-    overflow: hidden; /* Pour que l'image ne dépasse pas des bords arrondis */
+    overflow: hidden;
     border: 1px solid rgba(0,0,0,0.05);
     box-shadow: 0 10px 30px rgba(0,0,0,0.02);
     transition: transform 0.3s ease;
+    
+    /* AJOUT : Permet à la carte de gérer ses enfants verticalement */
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
 }
 
 body.dark-mode .project-card { border-color: rgba(255,255,255,0.05); }
@@ -379,7 +384,13 @@ body.dark-mode .project-card { border-color: rgba(255,255,255,0.05); }
     object-fit: cover;
 }
 
-.project-content { padding: 20px; }
+.project-content { 
+    padding: 20px; 
+    /* AJOUT : Ce bloc va prendre tout l'espace disponible au milieu */
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; 
+}
 
 .project-content h3 {
     font-size: 1rem;
@@ -428,7 +439,10 @@ body.dark-mode .tech-tag { border-color: rgba(255,255,255,0.1); }
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
+    
+    /* MODIFICATION : "auto" pousse ce bloc tout en bas de la carte */
+    margin-top: auto; 
+    padding-top: 15px; /* Un peu d'air au-dessus du badge */
 }
 
 .repo-link {
@@ -449,6 +463,36 @@ body.dark-mode .tech-tag { border-color: rgba(255,255,255,0.1); }
     display: inline-flex;
     align-items: center;
     /* ... reste de ton code précédent ... */
+}
+
+.repo-link {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Espace entre le texte et l'icône */
+    text-decoration: none;
+    color: var(--text-main);
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.repo-text {
+    font-size: 0.75rem; /* Petit et discret */
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    opacity: 0.8;
+}
+
+.repo-link i {
+    font-size: 1.2rem;
+}
+
+.repo-link:hover {
+    color: var(--accent-color);
+    transform: translateX(3px); /* Petit décalage vers la droite au survol */
+}
+
+.repo-link:hover .repo-text {
+    opacity: 1;
 }
 
 /* --- ABOUT ME --- */

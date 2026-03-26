@@ -492,20 +492,17 @@ body.dark-mode .lang-card { border-color: rgba(255,255,255,0.05); }
     text-transform: uppercase;
     font-weight: bold;
 }
-
 /* --- FOOTER --- */
 .footer {
     padding-top: 80px;
     padding-bottom: 40px;
     text-align: center;
-   
 }
 
 .footer-divider {
     border: 0;
     border-top: 1px solid rgba(0,0,0,0.05);
     margin-bottom: 50px;
-    background-color: #D4C9D0;
 }
 
 body.dark-mode .footer-divider { border-color: rgba(255,255,255,0.05); }

@@ -17,7 +17,11 @@ const translations = {
         'cert-algo2': "Algorithmique & Structures de données",
         'cert-pyth':"Jeu en Python",
         'cert-eng': "Anglais — Syken College",
-        'view-cert': "Voir l'attestation"
+        'view-cert': "Voir l'attestation",
+        'title-tech': 'Technologies',
+        'tech-prog': 'Programmation',
+        'tech-front': 'Frontend & Design',
+        'tech-tools': 'Outils & BD'
     },
     'en': {
         'nav-about': 'About',
@@ -37,7 +41,11 @@ const translations = {
         'cert-algo2': "Algorithms & Dynamic Data Structures",
         'cert-pyth':"Game in Python",
         'cert-eng': "English Certification — Syken College",
-        'view-cert': "View Certificate"
+        'view-cert': "View Certificate",
+        'title-tech': 'Technologies',
+        'tech-prog': 'Programming',
+        'tech-front': 'Frontend & Design',
+        'tech-tools': 'Tools & DB'
     }
 };
 

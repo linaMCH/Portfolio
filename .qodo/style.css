@@ -295,3 +295,56 @@ body.dark-mode .tech-card { border-color: rgba(255,255,255,0.05); }
 .cert-info a i {
     font-size: 0.65rem; /* Icône de sortie légèrement plus petite */
 }
+/* --- TECHNOLOGIES --- */
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colonnes égales */
+    gap: 25px;
+}
+
+.tech-card {
+    background: var(--card-bg);
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+body.dark-mode .tech-card {
+    border-color: rgba(255,255,255,0.05);
+}
+
+.tech-card:hover {
+    transform: translateY(-5px); /* Petit effet au survol */
+}
+
+.tech-card h4 {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: var(--text-muted);
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tag {
+    background: var(--bg-color); /* Utilise le rose pâle ou noir selon le mode */
+    color: var(--text-main);
+    padding: 7px 14px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    transition: background 0.3s ease;
+}
+
+body.dark-mode .tag {
+    background: rgba(255,255,255,0.1);
+}
+@media (max-width: 768px) {
+    .tech-grid { grid-template-columns: 1fr; }}

@@ -30,6 +30,16 @@ const translations = {
         'desc-assirem': 'Application web pour un club de natation',
         'desc-crypt': 'Application de chiffrement et déchiffrement',
         'desc-compiler': "Développement d'un compilateur pour le langage C réalisé en Java.",
+        'title-about': 'À propos de moi',
+        'desc-about': "Passionnée par l’apprentissage depuis mon plus jeune âge, j’ai toujours été guidée par la curiosité et le désir de progresser. Cet état d’esprit m’a permis dexceller tout au long de mon parcours académique. J’apprécie le travail en équipe et je m’adapte facilement aux environnements collaboratifs, en valorisant la communication, le partage d’idées et la progression collective. Consciente que mon parcours en ingénierie logicielle ne fait que commencer, je reste motivée, prête à apprendre continuellement et enthousiaste face aux défis et opportunités à venir.",
+        
+        'title-lang': 'Langues',
+        'title-hobbies': 'Loisirs',
+        'hobby-photo': 'Photographie',
+        'hobby-travel': 'Voyage',
+        'hobby-read': 'Lecture',
+        'hobby-pastry': 'Pâtisserie',
+        'contact-title': 'Contactez-moi !',
     },
     'en': {
         'nav-about': 'About',
@@ -62,7 +72,17 @@ const translations = {
         'desc-assirem': 'Web application for a swimming club',
         'desc-crypt': 'Encryption and decryption application',
         'desc-compiler': "Development of a C language compiler implemented in Java.",
-    }
+        'title-about': 'About Me',
+        'desc-about': "Passionate about learning from a young age, I have always been driven by curiosity and a strong desire to grow. This mindset has consistently led me to excel in my academic journey. I enjoy collaborating with others and naturally thrive in team environments, valuing communication, shared ideas, and collective progress. I am aware that my journey in software engineering is just beginning, with much more to learn and explore. I am motivated, eager to improve continuously, and excited about the opportunities and challenges ahead.",
+       
+        'title-lang': 'Languages',
+        'title-hobbies': 'Hobbies',
+        'hobby-photo': 'Photography',
+        'hobby-travel': 'Travel',
+        'hobby-read': 'Reading',
+        'hobby-pastry': 'Baking',
+        'contact-title': 'Get in touch!',
+    }   
 };
 
 // Gestion des Langues

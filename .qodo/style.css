@@ -451,6 +451,99 @@ body.dark-mode .tech-tag { border-color: rgba(255,255,255,0.1); }
     /* ... reste de ton code précédent ... */
 }
 
+/* --- ABOUT ME --- */
+.centered { text-align: center; margin-bottom: 30px; }
+
+.about-text-container {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+}
+
+/* --- HOBBIES & LANGUES --- */
+.hobbies-grid, .languages-flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.hobby-item, .lang-card {
+    background: var(--card-bg);
+    padding: 12px 20px;
+    border-radius: 30px;
+    border: 1px solid rgba(0,0,0,0.05);
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+body.dark-mode .hobby-item, 
+body.dark-mode .lang-card { border-color: rgba(255,255,255,0.05); }
+
+.lang-level {
+    font-size: 0.7rem;
+    color: var(--accent-color);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* --- FOOTER --- */
+.footer {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    text-align: center;
+   
+}
+
+.footer-divider {
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,0.05);
+    margin-bottom: 50px;
+    background-color: #D4C9D0;
+}
+
+body.dark-mode .footer-divider { border-color: rgba(255,255,255,0.05); }
+
+.footer-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.footer-email {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    margin-bottom: 30px;
+}
+
+.social-links-footer {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.social-links-footer a {
+    font-size: 1.4rem;
+    color: var(--text-muted);
+    transition: all 0.3s ease;
+}
+
+.social-links-footer a:hover {
+    color: var(--accent-color);
+    transform: translateY(-3px);
+}
+
+.copyright {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    opacity: 0.6;
+}
 
 
 .tech-tag i { font-size: 0.4rem; color: var(--accent-color); }

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lina M. — Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Lina M.</div>
+        <ul class="nav-links">
+            <li><a href="#about" data-key="nav-about">À propos</a></li>
+            <li><a href="#formation" data-key="nav-edu">Formation</a></li>
+            <li><a href="#projets" data-key="nav-projects">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-right">
+            <div class="lang-switch">
+                <span class="lang-btn" id="btn-en">EN</span>
+                <span class="lang-btn active" id="btn-fr">FR</span>
+            </div>
+            <i class="fa-solid fa-moon theme-toggle" id="theme-toggle"></i>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-img">
+            <img src="images/tulipesPC.png" alt="Illustration" class="img-light">
+            <img src="images/tulipesdark.png" alt="Illustration" class="img-dark">
+        </div>
+        <h1 data-key="hero-title">Hello! I'm Lina,</h1>
+        <p class="subtitle" data-key="hero-sub">Étudiante en 3ème année Génie Logiciel à l'Université de Béjaïa</p>
+        <div class="social-icons-hero">
+           <a href="https://github.com/linaMCH" target="_blank" class="github-icon-link">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        
+        <a href="documents/mon_cv.pdf" download class="cv-download-btn">
+            <i class="fa-solid fa-download"></i>
+            <span data-key="download-cv">Télécharger mon CV</span>
+        </a>
+        </div>
+    </header>
+
+    <section id="formation" class="container">
+    <h2 class="section-title" data-key="title-edu">Formation</h2>
+    <div class="formation-grid">
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="dot"></div>
+                <h3 data-key="edu-ing">Cycle d'Ingénieur — Génie Logiciel</h3>
+                <p data-key="edu-fac">Université de Béjaïa (En cours)</p>
+            </div>
+            <div class="timeline-item">
+                <div class="dot"></div>
+                <h3 data-key="edu-bac">Baccalauréat Mathématiques</h3>
+                <p data-key="edu-lycee">Mention Très Bien — Lycée Les Iris (2023/2024)</p>
+            </div>
+            <div class="timeline-item">
+                <div class="dot"></div>
+                <h3 data-key="edu-AS">Private High/ middle/ primary school</h3>
+                <p data-key="edu-etudes">"LES IRIS" Programme français et algérien</p>
+            </div>
+        </div>
+
+        <div class="certs-list">
+            <div class="cert-card">
+                <span class="cert-icon">ATS</span>
+                <div class="cert-info">
+                    <h4 data-key="cert-algo1">Algorithmique 1</h4>
+                    <a href="images/cert-algo1.jpeg" target="_blank" data-key="view-cert">Voir l'attestation <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+            <div class="cert-card">
+                <span class="cert-icon">TUSNA</span>
+                <div class="cert-info">
+                    <h4 data-key="cert-algo2">Algorithmique & Structures de données</h4>
+                    <a href="images/cert-algo2.jpeg" target="_blank" data-key="view-cert">Voir l'attestation <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+             <div class="cert-card">
+                <span class="cert-icon">TUSNA</span>
+                <div class="cert-info">
+                    <h4 data-key="cert-pyth">Python Dev Game</h4>
+                    <a href="images/cert-python.jpeg" target="_blank" data-key="view-cert">Voir l'attestation <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="cert-card">
+                <span class="cert-icon">SK</span>
+                <div class="cert-info">
+                    <h4 data-key="cert-eng">Anglais — Syken College</h4>
+                    <a href="images/cert-SK.jpeg" target="_blank" data-key="view-cert">Voir l'attestation <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>

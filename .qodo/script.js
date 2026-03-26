@@ -44,6 +44,8 @@ const translations = {
         'contact-title': 'Contactez-moi !',
         'view-report': 'Rapport',
         'view-code': 'Code',
+        'skills-subtitle':'Stack technique et outils étudiés durant mon cycle ingénieur pour concevoir des solutions robustes.',
+        'projects-subtitle': 'Cliquez sur les icones pour explorer le code source ou les rapports techniques.'
     },
     'en': {
         'nav-about': 'About',
@@ -52,7 +54,7 @@ const translations = {
         'hero-title': "Hello! I'm Lina,",
         'hero-sub': "3rd Year Software Engineering Student at Bejaia University",
         'download-cv': "Download my CV",
-        'title-edu': 'Education',
+        'title-edu': 'Education & Background',
         'edu-ing': "Engineering Degree — Software Engineering",
         'edu-fac': "University of Bejaia (Ongoing)",
         'edu-bac': "Mathematics Baccalaureate",
@@ -91,6 +93,8 @@ const translations = {
         'contact-title': 'Get in touch!',
         'view-report': 'Report',
         'view-code': 'Code',
+        'skills-subtitle':'Technical stack and tools studied during my engineering cycle to design robust solutions.',
+        'projects-subtitle':'Click on the icons to explore the source code or technical repports',
     }   
 };
 

@@ -347,11 +347,27 @@ body.dark-mode .tag {
     background: rgba(255,255,255,0.1);
 }
 
+.skills-subtitle {
+    text-align: center;
+    max-width: 700px;
+    margin: -10px auto 40px; /* Aligné avec le titre */
+    font-size: 0.95rem;
+    color: #5E565B; /* Un ton proche de ton mauve #D4C9D0 mais plus lisible */
+    line-height: 1.6;
+    opacity: 0.9;
+}
 /* --- PROJECTS SECTION --- */
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 2 colonnes */
     gap: 20px;
+}
+.section-subtitle {
+    text-align: center;
+    color: #5E565B; /* Ton mauve foncé */
+    font-size: 0.95rem;
+    margin-bottom: 30px; /* Espace avant que la grille ne commence */
+    margin-top: -10px;    /* Rapproche un peu le texte du titre principal */
 }
 
 .project-card {

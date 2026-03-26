@@ -445,6 +445,16 @@ body.dark-mode .tech-tag { border-color: rgba(255,255,255,0.1); }
     padding-top: 15px; /* Un peu d'air au-dessus du badge */
 }
 
+.project-links {
+    display: flex;
+    gap: 15px; /* Espace entre "Rapport" et "Code" */
+    align-items: center;
+}
+.repo-link i.fa-file-pdf {
+    color: #e74c3c; /* Un petit rouge discret pour rappeler le PDF */
+    font-size: 1.1rem;
+}
+
 .repo-link {
     color: var(--text-main);
     font-size: 1.2rem;
@@ -476,7 +486,8 @@ body.dark-mode .tech-tag { border-color: rgba(255,255,255,0.1); }
 }
 
 .repo-text {
-    font-size: 0.75rem; /* Petit et discret */
+    font-size: 0.7rem;
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     opacity: 0.8;

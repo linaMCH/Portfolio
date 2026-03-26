@@ -22,6 +22,8 @@ const translations = {
         'tech-prog': 'Programmation',
         'tech-front': 'Frontend & Design',
         'tech-tools': 'Outils & BD',
+        'tech-EN':'IDEs',
+        'tech-SE':'OS',
         'title-projects': 'Mes Projets',
         'collab': '(COLLABORATIF)',
         'ongoing': '(EN COURS)',
@@ -40,6 +42,8 @@ const translations = {
         'hobby-read': 'Lecture',
         'hobby-pastry': 'Pâtisserie',
         'contact-title': 'Contactez-moi !',
+        'view-report': 'Rapport',
+        'view-code': 'Code',
     },
     'en': {
         'nav-about': 'About',
@@ -64,6 +68,8 @@ const translations = {
         'tech-prog': 'Programming',
         'tech-front': 'Frontend & Design',
         'tech-tools': 'Tools & DB',
+        'tech-EN':'IDEs',
+        'tech-SE':'OS',
         'title-projects': 'My Projects',
         'collab': '(COLLABORATIVE)',
         'ongoing': '(ONGOING)',
@@ -74,6 +80,7 @@ const translations = {
         'desc-compiler': "Development of a C language compiler implemented in Java.",
         'title-about': 'About Me',
         'desc-about': "Passionate about learning from a young age, I have always been driven by curiosity and a strong desire to grow. This mindset has consistently led me to excel in my academic journey. I enjoy collaborating with others and naturally thrive in team environments, valuing communication, shared ideas, and collective progress. I am aware that my journey in software engineering is just beginning, with much more to learn and explore. I am motivated, eager to improve continuously, and excited about the opportunities and challenges ahead.",
+
        
         'title-lang': 'Languages',
         'title-hobbies': 'Hobbies',
@@ -82,6 +89,8 @@ const translations = {
         'hobby-read': 'Reading',
         'hobby-pastry': 'Baking',
         'contact-title': 'Get in touch!',
+        'view-report': 'Report',
+        'view-code': 'Code',
     }   
 };
 

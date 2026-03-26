@@ -28,7 +28,7 @@ body {
 
 /* --- STRUCTURE (ESPACEMENT) --- */
 .container {
-    max-width: 1100px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 60px 8%; /* Décolle le contenu des bords gauche/droite */
 }
@@ -38,7 +38,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1100px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 15px 8%;
 }
@@ -299,12 +299,12 @@ body.dark-mode .tech-card { border-color: rgba(255,255,255,0.05); }
 .tech-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 colonnes égales */
-    gap: 25px;
+    gap: 15px;
 }
 
 .tech-card {
     background: var(--card-bg);
-    padding: 30px;
+    padding: 20px;
     border-radius: 15px;
     border: 1px solid rgba(0,0,0,0.05);
     transition: transform 0.3s ease;
@@ -338,7 +338,7 @@ body.dark-mode .tech-card {
     color: var(--text-main);
     padding: 7px 14px;
     border-radius: 20px;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     font-weight: 500;
     transition: background 0.3s ease;
 }
@@ -346,5 +346,113 @@ body.dark-mode .tech-card {
 body.dark-mode .tag {
     background: rgba(255,255,255,0.1);
 }
+
+/* --- PROJECTS SECTION --- */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colonnes */
+    gap: 20px;
+}
+
+.project-card {
+    background: var(--card-bg);
+    border-radius: 20px;
+    overflow: hidden; /* Pour que l'image ne dépasse pas des bords arrondis */
+    border: 1px solid rgba(0,0,0,0.05);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.02);
+    transition: transform 0.3s ease;
+}
+
+body.dark-mode .project-card { border-color: rgba(255,255,255,0.05); }
+
+.project-card:hover { transform: translateY(-10px); }
+
+.project-img {
+    height: 160px;
+    background: #f0f0f0; /* Couleur d'attente si pas d'image */
+    overflow: hidden;
+}
+
+.project-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project-content { padding: 20px; }
+
+.project-content h3 {
+    font-size: 1rem;
+    margin: 0 0 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.badge {
+    font-size: 0.6rem;
+    padding: 2px 8px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.1);
+    color: var(--text-muted);
+    font-weight: 400;
+}
+
+.project-content p {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.tech-tag {
+    font-size: 0.75rem;
+    padding: 6px 15px;
+    border-radius: 20px;
+    border: 1px solid rgba(0,0,0,0.1);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.project-card:last-child:nth-child(odd) {
+    grid-column: 1 / span 2;
+    max-width: 430px; 
+    margin: 0 auto;
+}
+
+body.dark-mode .tech-tag { border-color: rgba(255,255,255,0.1); }
+
+/* --- PROJECT FOOTER & LINKS --- */
+.project-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.repo-link {
+    color: var(--text-main);
+    font-size: 1.2rem;
+    transition: color 0.2s, transform 0.2s;
+    opacity: 0.7;
+}
+
+.repo-link:hover {
+    color: var(--accent-color);
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+/* On ajuste la tech-tag pour qu'elle ne prenne pas toute la largeur */
+.tech-tag {
+    display: inline-flex;
+    align-items: center;
+    /* ... reste de ton code précédent ... */
+}
+
+
+
+.tech-tag i { font-size: 0.4rem; color: var(--accent-color); }
 @media (max-width: 768px) {
     .tech-grid { grid-template-columns: 1fr; }}

@@ -21,7 +21,15 @@ const translations = {
         'title-tech': 'Technologies',
         'tech-prog': 'Programmation',
         'tech-front': 'Frontend & Design',
-        'tech-tools': 'Outils & BD'
+        'tech-tools': 'Outils & BD',
+        'title-projects': 'Mes Projets',
+        'collab': '(COLLABORATIF)',
+        'ongoing': '(EN COURS)',
+        'desc-pharma': 'Application de bureau pour la gestion de livraison pharmaceutique',
+        'desc-cinely': 'Application de bureau pour la gestion de billets de cinéma',
+        'desc-assirem': 'Application web pour un club de natation',
+        'desc-crypt': 'Application de chiffrement et déchiffrement',
+        'desc-compiler': "Développement d'un compilateur pour le langage C réalisé en Java.",
     },
     'en': {
         'nav-about': 'About',
@@ -45,7 +53,15 @@ const translations = {
         'title-tech': 'Technologies',
         'tech-prog': 'Programming',
         'tech-front': 'Frontend & Design',
-        'tech-tools': 'Tools & DB'
+        'tech-tools': 'Tools & DB',
+        'title-projects': 'My Projects',
+        'collab': '(COLLABORATIVE)',
+        'ongoing': '(ONGOING)',
+        'desc-pharma': 'Desktop application for pharmaceutical delivery management',
+        'desc-cinely': 'Desktop application for movie ticket management',
+        'desc-assirem': 'Web application for a swimming club',
+        'desc-crypt': 'Encryption and decryption application',
+        'desc-compiler': "Development of a C language compiler implemented in Java.",
     }
 };
 

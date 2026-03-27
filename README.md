@@ -13,13 +13,15 @@ Bienvenue sur le dépôt de mon portfolio personnel. Ce projet est une vitrine i
 
 ---
 
-##  Architecture & Stack Technique
+## Architecture & Stack Technique
 Ce portfolio a été développé avec une approche **"Clean Code"** et une attention particulière portée à l'expérience utilisateur (UX) :
 
 * **Frontend :** HTML5 sémantique, CSS3 (Flexbox & Grid), JavaScript.
 * **UI/UX :** * Design **Responsive** (optimisé pour mobile, tablette et desktop).
     * Système de **Thème Dynamique** (Dark/Light Mode).
     * Architecture bilingue (Français/Anglais).
+* **Gestion des Erreurs :** Pages d'erreurs (404) personnalisées pour garantir une navigation fluide et cohérente avec le design global.
+* **Gestion des États :** Architecture multi-pages incluant des vues dédiées pour la maintenance (`maintenance.html`) et les états d'attente (`attente.html`), offrant une expérience utilisateur fluide même lors des mises à jour.
 * **Performance :** Optimisation du rendu pour l'exportation PDF via les `@media print`.
 * **Déploiement :** GitHub Pages avec intégration continue.
 

@@ -41,31 +41,48 @@ Le portfolio regroupe mes réalisations majeures en tant qu'étudiante ingénieu
 * **Python :** Certification de programmation (TUSNA) incluant le développement de jeux.
 * **Cursus :** Baccalauréat Mathématiques (Mention Très Bien).
 
+
 ---
-
-
 
 ## Démarrage Rapide
-Si vous souhaitez explorer le code source ou tester le projet localement, suivez ces étapes :
 
-1. **Cloner le dépôt :**
-   ```bash
-   git clone [https://github.com/linaMCH/Portfolio.git](https://github.com/linaMCH/Portfolio.git)
+Suivez ces étapes pour installer et visualiser le projet sur votre machine locale :
+
+### 1. Prérequis
+Assurez-vous d'avoir **Git** installé sur votre système (utilisez la commande `git --version` pour vérifier).
+
+### 2. Installation & Configuration
+Ouvrez votre terminal et exécutez les commandes suivantes :
+
+```bash
+# 1. Copie du projet sur votre ordinateur (Clonage)
+git clone https://github.com/linaMCH/votre-repo.git
+# 2. Accès au répertoire du projet
+cd votre-repo
+```
+
+
+
+
+### 3. Visualisation
+Ce projet étant statique (HTML/CSS), aucune installation de dépendances n'est requise. Ouvrez simplement le fichier `index.html` dans votre navigateur.
 
 ---
 
-## Évolutions Futures:
+##  Évolutions Futures
 * **Sécurité :** Implémentation de l'en-tête de sécurité Content Security Policy (CSP).
 * **Backend :** Migration vers une architecture Serverless pour le formulaire de contact.
 * **Accessibilité :** Audit complet de conformité aux normes WCAG 2.1.
 * **Performance :** Optimisation des images et minification des ressources CSS/JS.
+
+---
 
 ## Contact & Liens
 Je suis ouverte aux opportunités de stages et aux collaborations techniques.
 
 * **GitHub :** [@linaMCH](https://github.com/linaMCH)
 * **LinkedIn :** [Lina Maouche](https://www.linkedin.com/in/lina-maouche-774510334)
-* **Email :** `maouchelina458@gmail.com`
+* **Email :** maouchelina458@gmail.com
 
 ---
 *Built with ❤️ by Lina Maouche — © 2026*

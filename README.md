@@ -45,10 +45,12 @@ Le portfolio regroupe mes réalisations majeures en tant qu'étudiante ingénieu
 
 
 
-## Cloner le dépôt :
-   
-   git clone [https://github.com/linaMCH/votre-repo.git](https://github.com/linaMCH/votre-repo.git).
+## Démarrage Rapide
+Si vous souhaitez explorer le code source ou tester le projet localement, suivez ces étapes :
 
+1. **Cloner le dépôt :**
+   ```bash
+   git clone [https://github.com/linaMCH/Portfolio.git](https://github.com/linaMCH/Portfolio.git)
 
 ---
 

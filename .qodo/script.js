@@ -12,7 +12,7 @@ const translations = {
         'edu-bac': "Baccalauréat Mathématiques",
         'edu-lycee': "Mention Très Bien — Lycée Les Iris (2023/2024)",
         'edu-AS':"Lycée / college / primaire Privé", 
-        'edu-etudes':"Parcours scolaire privé aux IRIS",
+        'edu-etudes':"Parcours scolaire privé",
         'cert-algo1':"Algorithmique 1",
         'cert-algo2': "Algorithmique & Structures de données",
         'cert-pyth':"Jeu en Python",

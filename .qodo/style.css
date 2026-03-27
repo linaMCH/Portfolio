@@ -1,19 +1,19 @@
 /* --- VARIABLES --- */
 :root {
-    --bg-color: #fceef5;
+    --bg-color: #f7edf2;
     --text-main: #1a1a1a;
-    --text-muted: #555;
-    --accent-color: #2563eb; /* Bleu (Light Mode) */
+    --text-muted: #545151;
+    --accent-color: #b799b3; /* Bleu (Light Mode) */
     --font-size-nav: 0.85rem;
     --font-size-sub: 0.95rem;
     --card-bg: #ffffff;
 }
 
 body.dark-mode {
-    --bg-color: #0f0f0f;
+    --bg-color:#121212;
     --text-main: #ffffff;
-    --text-muted: #a0a0a0;
-    --accent-color: #a78bfa; /* Violet (Dark Mode) */
+    --text-muted: #9b9b9b;
+    --accent-color: #c7bfde; /* Violet (Dark Mode) */
     --card-bg: #1a1a1a;
 }
 
@@ -352,7 +352,7 @@ body.dark-mode .tag {
     max-width: 700px;
     margin: -10px auto 40px; /* Aligné avec le titre */
     font-size: 0.95rem;
-    color: #5E565B; /* Un ton proche de ton mauve #D4C9D0 mais plus lisible */
+    color: var(--text-muted); /* Un ton proche de ton mauve #D4C9D0 mais plus lisible */
     line-height: 1.6;
     opacity: 0.9;
 }
@@ -364,7 +364,7 @@ body.dark-mode .tag {
 }
 .section-subtitle {
     text-align: center;
-    color: #5E565B; /* Ton mauve foncé */
+    color: var(--text-muted); 
     font-size: 0.95rem;
     margin-bottom: 30px; /* Espace avant que la grille ne commence */
     margin-top: -10px;    /* Rapproche un peu le texte du titre principal */
@@ -565,7 +565,7 @@ body.dark-mode .lang-card { border-color: rgba(255,255,255,0.05); }
 }
 /* --- FOOTER --- */
 .footer {
-    background-color: #D4C9D0; 
+    background-color: #d5c9d5; 
     padding-top: 60px;
     padding-bottom: 40px;
     text-align: center;

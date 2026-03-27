@@ -15,8 +15,10 @@
         <div class="logo">Lina M.</div>
         <ul class="nav-links">
             <li><a href="#about" data-key="nav-about">À propos</a></li>
-            <li><a href="#formation" data-key="nav-edu">Formation</a></li>
+            <li><a href="#formation" data-key="nav-edu">Parcours & Formations</a></li>
             <li><a href="#projets" data-key="nav-projects">Projets</a></li>
+            <li><a href="#loisirs" data-key="nav-hobbies">Loisirs</a></li>
+            <li><a href="#langues" data-key="nav-languages">Langues</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
         <div class="nav-right">
@@ -33,7 +35,7 @@
             <img src="images/tulipesPC.png" alt="Illustration" class="img-light">
             <img src="images/tulipesdark.png" alt="Illustration" class="img-dark">
         </div>
-        <h1 data-key="hero-title">Bonjour!Je suis Lina,</h1>
+        <h1 data-key="hero-title"> Bonjour, Je suis Lina </h1>
         <p class="subtitle" data-key="hero-sub">Étudiante en 3ème année Génie Logiciel à l'Université de Béjaïa</p>
         <div class="social-icons-hero">
            <a href="https://github.com/linaMCH" target="_blank" class="github-icon-link">
@@ -46,6 +48,20 @@
         </a>
         </div>
     </header>
+
+    <section id="about" class="container about-section">
+    <h2 class="section-title centered" data-key="title-about">À propos de moi</h2>
+    <div class="about-text-container">
+        <p data-key="desc-about">
+           Étudiante en 3ème année en génie logiciel, je m'intéresse particulièrement au développement d'applications et à la conception de systèmes logiciels robustes.
+
+           J’ai travaillé sur plusieurs projets académiques en Java, Spring Boot et Python, où j’ai développé des compétences en conception UML, développement backend et travail en équipe.
+
+        Curieuse et motivée, je cherche à approfondir mes compétences et à contribuer à des projets concrets.
+        </p>
+    </div>
+</section>
+
 
     <section id="formation" class="container">
     <h2 class="section-title" data-key="title-edu">Parcours & Formations</h2>
@@ -102,65 +118,83 @@
     </div>
 </section>
 <section id="technologies" class="container">
-    <h2 class="section-title" data-key="title-tech">Technologies</h2>
+    <h2 class="section-title">Technologies</h2>
     <p class="skills-subtitle" data-key="skills-subtitle">
-        Stack technique et outils étudiés durant mon parcours en cycle ingénieur pour concevoir des solutions robustes.
+        Stack technique et outils étudiés durant mon cycle ingénieur pour concevoir des solutions robustes.
     </p>
+
     <div class="tech-grid">
+
+        <!-- Langages -->
         <div class="tech-card">
-            <h4 data-key="tech-prog">Programmation</h4>
+            <h4>Langages de programmation</h4>
             <div class="tags-container">
                 <span class="tag">Java</span>
                 <span class="tag">C / C++</span>
                 <span class="tag">Python</span>
+                <span class="tag">JavaScript</span>
             </div>
         </div>
 
+        <!-- Frontend -->
         <div class="tech-card">
-            <h4 data-key="tech-front">Frontend & Design</h4>
+            <h4>Frontend & UI</h4>
             <div class="tags-container">
-                <span class="tag">HTML / CSS</span>
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
                 <span class="tag">JavaScript</span>
-                <span class="tag">JavaFX</span>
+                <span class="tag">Vue.js</span>
                 <span class="tag">Figma</span>
             </div>
         </div>
 
+        <!-- Backend -->
         <div class="tech-card">
-            <h4 data-key="tech-tools">Outils & BD</h4>
+            <h4>Backend & Frameworks</h4>
             <div class="tags-container">
-                <span class="tag">Git / Github</span>
-                <span class="tag">SpringBoot</span>
-                <span class="tag">SQL</span>
+                <span class="tag">Spring Boot</span>
+                <span class="tag">REST API</span>
+            </div>
+        </div>
+
+        <!-- Bases de données -->
+        <div class="tech-card">
+            <h4>Bases de données</h4>
+            <div class="tags-container">
+                <span class="tag">MySQL</span>
                 <span class="tag">Oracle 21c</span>
-                <span class="tag">Latex</span>
             </div>
         </div>
+
+        <!-- Outils -->
         <div class="tech-card">
-            <h4 data-key="tech-EN">IDEs</h4>
+            <h4>Outils & Environnements</h4>
             <div class="tags-container">
+                <span class="tag">Git</span>
+                <span class="tag">GitHub</span>
                 <span class="tag">Visual Studio Code</span>
-                <span class="tag">IntelligIDEA</span>
-                <span class="tag">codeBlocks</span>
-                <span class="tag">Netbeans</span>
+                <span class="tag">IntelliJ IDEA</span>
+                <span class="tag">Code::Blocks</span>
+                <span class="tag">NetBeans</span>
                 <span class="tag">phpMyAdmin</span>
-                
+                <span class="tag">LaTeX</span>
             </div>
         </div>
+
+        <!-- Systèmes -->
         <div class="tech-card">
-            <h4 data-key="tech-SE">OS</h4>
+            <h4>Systèmes d'exploitation</h4>
             <div class="tags-container">
                 <span class="tag">Windows</span>
                 <span class="tag">Linux</span>
-                
-                
             </div>
         </div>
+
     </div>
 </section>
 
 <section id="projets" class="container">
-    <h2 class="section-title" data-key="title-projects">MesProjets</h2>
+    <h2 class="section-title" data-key="title-projects">Mes Projets</h2>
     <p class="section-subtitle" data-key="projects-subtitle">
             Cliquez sur les icônes pour explorer le code source ou les rapports techniques.
         </p>
@@ -180,8 +214,8 @@
             <span class="repo-text" data-key="view-report">Rapport</span>
             <i class="fa-solid fa-file-pdf"></i>
         </a>
-        <a href="https://github.com/..." target="_blank" class="repo-link">
-            <span class="repo-text" data-key="view-code">Code Source</span>
+        <a href="https://github.com/ImeneeSh/PharmaGo.git" target="_blank" class="repo-link">
+            <span class="repo-text" data-key="view-code">Code</span>
             <i class="fa-brands fa-github"></i>
         </a>
     </div>
@@ -284,19 +318,9 @@
     </div>
 </section>
 
-<section id="about" class="container about-section">
-    <h2 class="section-title centered" data-key="title-about">About Me</h2>
-    <div class="about-text-container">
-        <p data-key="desc-about">
-            Passionate about learning from a young age, I have always been driven by curiosity and a strong desire to grow. This mindset has consistently led me to excel in my academic journey.
-            I enjoy collaborating with others and naturally thrive in team environments, valuing communication, shared ideas, and collective progress.
-            I am aware that my journey in software engineering is just beginning, with much more to learn and explore. I am motivated, eager to improve continuously, and excited about the opportunities and challenges ahead.
-        </p>
-    </div>
-</section>
 
 <section id="hobbies" class="container">
-    <h2 class="section-title centered" data-key="title-hobbies">Hobbies</h2>
+    <h2 class="section-title centered" data-key="title-hobbies">Loisirs</h2>
     <div class="hobbies-grid">
         <div class="hobby-item">
             <i class="fa-solid fa-camera-retro"></i> 
@@ -334,6 +358,9 @@
             <p class="footer-email">maouchelina458@gmail.com</p> 
             
             <div class="social-links-footer">
+                <a href="https://github.com/linaMCH" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
                 <a href="mailto:maouchelina458@gmail.com" title="Email">
                     <i class="fa-solid fa-envelope"></i>
                 </a>

@@ -675,3 +675,49 @@ body.dark-mode .footer-divider { border-color: rgba(255,255,255,0.05); }
 @media (max-width: 768px) {
     .tech-grid { grid-template-columns: 1fr; }}
 
+
+    
+/*responsivité*/
+@media (max-width: 768px) {
+  
+    .container, nav, .hero {
+        width: 100% !important;
+        padding: 30px 5% !important;
+        box-sizing: border-box;
+    }
+
+    .formation-grid, 
+    .tech-grid, 
+    .projects-grid {
+        grid-template-columns: 1fr !important; 
+        gap: 20px !important;
+    }
+
+    .project-card:last-child:nth-child(odd) {
+        max-width: 100% !important;
+    }
+
+    
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .nav-links {
+        padding: 0;
+        justify-content: center;
+        flex-wrap: wrap; 
+    }
+
+    /* 5. Images du Hero */
+    .hero-img .img-light, 
+    .hero-img .img-dark {
+        max-width: 100% !important;
+        height: auto;
+    }
+
+    
+    .hero h1 {
+        font-size: 1.8rem !important;
+    }
+}

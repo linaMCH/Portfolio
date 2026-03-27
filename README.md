@@ -43,6 +43,21 @@ Le portfolio regroupe mes réalisations majeures en tant qu'étudiante ingénieu
 
 ---
 
+
+
+## Cloner le dépôt :
+   
+   git clone [https://github.com/linaMCH/votre-repo.git](https://github.com/linaMCH/votre-repo.git).
+
+
+---
+
+## Évolutions Futures:
+* **Sécurité :** Implémentation de l'en-tête de sécurité Content Security Policy (CSP).
+* **Backend :** Migration vers une architecture Serverless pour le formulaire de contact.
+* **Accessibilité :** Audit complet de conformité aux normes WCAG 2.1.
+* **Performance :** Optimisation des images et minification des ressources CSS/JS.
+
 ## Contact & Liens
 Je suis ouverte aux opportunités de stages et aux collaborations techniques.
 

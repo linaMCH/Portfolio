@@ -45,7 +45,10 @@ const translations = {
         'view-report': 'Rapport',
         'view-code': 'Code',
         'skills-subtitle':'Stack technique et outils étudiés durant mon cycle ingénieur pour concevoir des solutions robustes.',
-        'projects-subtitle': 'Cliquez sur les icones pour explorer le code source ou les rapports techniques.'
+        'projects-subtitle': 'Cliquez sur les icones pour explorer le code source ou les rapports techniques.',
+        'nav-demos': "Démonstrations",
+        'view-demo':'Voir démontations',
+        
     },
     'en': {
         'nav-about': 'About',
@@ -95,6 +98,9 @@ const translations = {
         'view-code': 'Code',
         'skills-subtitle':'Technical stack and tools studied during my engineering cycle to design robust solutions.',
         'projects-subtitle':'Click on the icons to explore the source code or technical repports',
+        'nav-demos':"Demos",
+        'view-demo':'View demos',
+      
     }   
 };
 

@@ -3,41 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Code en Maintenance - Cinely</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Maintenance - Cinely</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         .maintenance-container {
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            background-color: #D4C9D0; /* Ton mauve fétiche */
-            text-align: center;
-            padding: 40px;
+            height: 100vh; display: flex; flex-direction: column;
+            justify-content: center; align-items: center;
+            background-color: #D4C9D0; text-align: center; padding: 40px;
             font-family: 'Poppins', sans-serif;
         }
         .icon-box { font-size: 4rem; color: #4A4448; margin-bottom: 20px; }
         h1 { color: #4A4448; font-size: 1.8rem; margin-bottom: 10px; }
         p { color: #5E565B; max-width: 500px; line-height: 1.6; margin-bottom: 30px; }
         .back-link {
-            padding: 10px 25px;
-            border: 2px solid #4A4448;
-            color: #4A4448;
-            text-decoration: none;
-            border-radius: 25px;
-            font-weight: 600;
-            transition: 0.3s;
+            padding: 10px 25px; border: 2px solid #4A4448; color: #4A4448;
+            text-decoration: none; border-radius: 25px; font-weight: 600; transition: 0.3s;
         }
         .back-link:hover { background: #4A4448; color: white; }
+        .lang-switch { position: absolute; top: 20px; right: 20px; }
+        .lang-btn { cursor: pointer; background: white; border: none; padding: 5px 12px; border-radius: 5px; color: #4A4448; font-weight: bold; margin-left: 5px; }
     </style>
 </head>
 <body>
+    <div class="lang-switch">
+        <button class="lang-btn" onclick="setLanguage('fr')">FR</button>
+        <button class="lang-btn" onclick="setLanguage('en')">EN</button>
+    </div>
+
     <div class="maintenance-container">
         <div class="icon-box"><i class="fa-solid fa-code-compare"></i></div>
-        <h1>Dépôt en cours de reconstruction</h1>
-        <p>Le code source de <strong>Cinely</strong> est actuellement en cours de réorganisation suite à une migration de serveur. Le rapport technique reste disponible pour consultation.</p>
-        <a href="index.html" class="back-link">Retour au Portfolio</a>
+        
+        <div id="content-fr">
+            <h1>Dépôt en cours de reconstruction</h1>
+            <p>Le code source de <strong>Cinely</strong> est actuellement en cours de réorganisation suite à une migration. Le rapport technique reste disponible.</p>
+            <a href="index.html" class="back-link">Retour au Portfolio</a>
+        </div>
+
+        <div id="content-en" style="display: none;">
+            <h1>Repository under reconstruction</h1>
+            <p>The source code for <strong>Cinely</strong> is currently being reorganized following a migration. The technical report remains available.</p>
+            <a href="index.html" class="back-link">Back to Portfolio</a>
+        </div>
     </div>
+
+    <script>
+        function setLanguage(lang) {
+            document.getElementById('content-fr').style.display = (lang === 'fr') ? 'block' : 'none';
+            document.getElementById('content-en').style.display = (lang === 'en') ? 'block' : 'none';
+        }
+        const userLang = navigator.language || navigator.userLanguage; 
+        if (userLang.startsWith('en')) setLanguage('en');
+    </script>
 </body>
 </html>

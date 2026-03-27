@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Démonstrations - Coming Soon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #D4C9D0;
+            color: #4A4448;
+            margin: 0; display: flex; justify-content: center; align-items: center; height: 100vh; text-align: center;
+        }
+        .container { padding: 20px; max-width: 600px; }
+        .icon { font-size: 5rem; margin-bottom: 20px; color: #4A4448; }
+        h1 { font-size: 1.8rem; margin-bottom: 10px; }
+        p { font-size: 1.1rem; line-height: 1.6; margin-bottom: 30px; opacity: 0.9; }
+        .btn-back {
+            display: inline-block; padding: 12px 30px; background-color: #4A4448;
+            color: #fff; text-decoration: none; border-radius: 30px; transition: 0.3s;
+        }
+        .btn-back:hover { transform: scale(1.05); background-color: #5E565B; }
+        .lang-switch { position: absolute; top: 20px; right: 20px; }
+        .lang-btn { cursor: pointer; background: white; border: none; padding: 5px 12px; border-radius: 5px; color: #4A4448; font-weight: bold; margin-left: 5px; }
+    </style>
+</head>
+<body>
+    <div class="lang-switch">
+        <button class="lang-btn" onclick="setLanguage('fr')">FR</button>
+        <button class="lang-btn" onclick="setLanguage('en')">EN</button>
+    </div>
+    <div class="container">
+        <div class="icon"><i class="fa-solid fa-person-digging"></i></div>
+        <div id="content-fr">
+            <h1>Bientôt disponible</h1>
+            <p>Je prépare actuellement des captures vidéo pour vous présenter mes projets (PharmaGO, Compilateur C, etc.) en action.</p>
+            <a href="index.html" class="btn-back">Retour à l'accueil</a>
+        </div>
+        <div id="content-en" style="display: none;">
+            <h1>Coming Soon</h1>
+            <p>I am currently preparing video captures to showcase my projects (PharmaGO, C Compiler, etc.) in action.</p>
+            <a href="index.html" class="btn-back">Back to Home</a>
+        </div>
+    </div>
+    <script>
+        function setLanguage(lang) {
+            document.getElementById('content-fr').style.display = (lang === 'fr') ? 'block' : 'none';
+            document.getElementById('content-en').style.display = (lang === 'en') ? 'block' : 'none';
+        }
+        const userLang = navigator.language || navigator.userLanguage; 
+        if (userLang.startsWith('en')) setLanguage('en');
+    </script>
+</body>
+</html>

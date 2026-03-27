@@ -463,8 +463,46 @@ body.dark-mode .tech-tag { border-color: rgba(255,255,255,0.1); }
 
 .project-links {
     display: flex;
-    gap: 15px; /* Espace entre "Rapport" et "Code" */
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 15px;
+}
+.btn-demo-main {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    gap: 8px;
+    background-color: #333; /* Couleur sombre moderne */
+    color: #fff;
+    padding: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: 0.3s;
+}
+
+.sub-links {
+    display: flex;
+    gap: 8px;
+}
+.sub-links .repo-link {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.85rem;
+    color: inherit;
+}
+
+.btn-demo:hover {
+    background-color: var(--accent-color);
+    color: #fff;
+    transform: translateY(-2px);
 }
 .repo-link i.fa-file-pdf {
     color: #e74c3c; /* Un petit rouge discret pour rappeler le PDF */
@@ -636,3 +674,4 @@ body.dark-mode .footer-divider { border-color: rgba(255,255,255,0.05); }
 .tech-tag i { font-size: 0.4rem; color: var(--accent-color); }
 @media (max-width: 768px) {
     .tech-grid { grid-template-columns: 1fr; }}
+

@@ -5,7 +5,7 @@ Bienvenue sur le dépôt de mon portfolio personnel. Ce projet est une vitrine i
 
 <p align="center">
   <a href="https://github.com/linaMCH">
-    <img src="assets/img/screenshot.png" alt="Aperçu du Portfolio" width="700" style="border-radius: 10px; border: 1px solid #e5e7eb;">
+    <img src=".qodo/assets/img/screenshot.png" alt="Aperçu du Portfolio" width="700" style="border-radius: 10px; border: 1px solid #e5e7eb;">
   </a>
   <br>
   <em>Cliquez sur l'image pour accéder au site en direct</em>

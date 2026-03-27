@@ -1,41 +1,54 @@
-#  Portfolio Professionnel - Lina Maouche
+#  Portfolio — Lina Maouche
+> **Étudiante en Génie Logiciel (ING3) | Université de Béjaïa**
 
-Bienvenue sur le dépôt de mon portfolio personnel. Ce site est une vitrine de mon parcours en **Génie Logiciel (ING3)** à l'Université de Béjaïa, regroupant mes projets, mes compétences techniques et mes certifications.
+Bienvenue sur le dépôt de mon portfolio personnel. Ce projet est une vitrine interactive de mon parcours académique et technique, conçue pour présenter mes compétences en développement, mes projets phares et mes certifications.
 
- **[Consulter le portfolio en ligne](https://github.com/linaMCH)** 
-
----
-
-## 🛠️ Stack Technique
-Ce portfolio a été conçu avec une approche **minimaliste et moderne**, en mettant l'accent sur la performance et l'expérience utilisateur (UX) :
-* **Frontend :** HTML5, CSS3 (Flexbox & Grid), JavaScript.
-* **Design :** Architecture bilingue (FR/EN), Mode Sombre/Clair, Design Responsive.
-* **Déploiement :** GitHub Pages.
-
----
-
-## 📂 Projets Mis en Avant
-Le portfolio présente plusieurs réalisations clés :
-* **PharmaGO :** Gestion de livraison pharmaceutique (JavaFX).
-* **Compilateur C :** Développement d'un compilateur en Java.
-* **Assirem Natation :** Application web de gestion de club (En cours).
-* **Cinely :** Système de billetterie pour cinéma.
+<p align="center">
+  <a href="https://github.com/linaMCH">
+    <img src="assets/img/screenshot.png" alt="Aperçu du Portfolio" width="700" style="border-radius: 10px; border: 1px solid #e5e7eb;">
+  </a>
+  <br>
+  <em>Cliquez sur l'image pour accéder au site en direct</em>
+</p>
 
 ---
 
-## 🎓 Certifications & Formations
-* **Algorithmique niveau1** (ATS -LESAMISDEJAVA)
-* **Algorithmique & Structures de données** (TUSNA)
-* **Développement Python** (TUSNA)
-* **Baccalauréat Mathématiques** (Mention Très Bien)
-* **Syken College x Cambridge University** (International)
+##  Architecture & Stack Technique
+Ce portfolio a été développé avec une approche **"Clean Code"** et une attention particulière portée à l'expérience utilisateur (UX) :
+
+* **Frontend :** HTML5 sémantique, CSS3 (Flexbox & Grid), JavaScript.
+* **UI/UX :** * Design **Responsive** (optimisé pour mobile, tablette et desktop).
+    * Système de **Thème Dynamique** (Dark/Light Mode).
+    * Architecture bilingue (Français/Anglais).
+* **Performance :** Optimisation du rendu pour l'exportation PDF via les `@media print`.
+* **Déploiement :** GitHub Pages avec intégration continue.
 
 ---
 
-## 📬 Contact
-* **Email :** maouchelina458@gmail.com
-* **LinkedIn :** [Lina Maouche](https://www.linkedin.com/in/lina-maouche-774510334)
+##  Projets Mis en Avant
+Le portfolio regroupe mes réalisations majeures en tant qu'étudiante ingénieure :
+
+* **PharmaGO :** Application desktop de gestion de livraison pharmaceutique (JavaFX).
+* **Compilateur C :** Développement d'un compilateur complet écrit en Java.
+* **Assirem Natation :** Plateforme web de gestion pour club de natation (En cours - 2025/2026).
+* **Cinely :** Système de billetterie et gestion de cinéma.
+
+---
+
+##  Certifications & Formations
+* **Anglais :** Certification Syken College x Cambridge University (Niveau International).
+* **Algorithmique :** Attestations de formation ATS (LESAMISDEJAVA) & TUSNA en Algorithmique et Structures de données.
+* **Python :** Certification de programmation (TUSNA) incluant le développement de jeux.
+* **Cursus :** Baccalauréat Mathématiques (Mention Très Bien).
+
+---
+
+## Contact & Liens
+Je suis ouverte aux opportunités de stages et aux collaborations techniques.
+
 * **GitHub :** [@linaMCH](https://github.com/linaMCH)
+* **LinkedIn :** [Lina Maouche](https://www.linkedin.com/in/lina-maouche-774510334)
+* **Email :** `maouchelina458@gmail.com`
 
 ---
-*Fait avec ❤️ par Lina Maouche.*
+*Built with ❤️ by Lina Maouche — © 2026*

@@ -544,17 +544,16 @@ body.dark-mode .tech-tag { border-color: rgba(255,255,255,0.1); }
     opacity: 1;
 }
 
-/* On ajuste la tech-tag pour qu'elle ne prenne pas toute la largeur */
 .tech-tag {
     display: inline-flex;
     align-items: center;
-    /* ... reste de ton code précédent ... */
+    
 }
 
 .repo-link {
     display: flex;
     align-items: center;
-    gap: 8px; /* Espace entre le texte et l'icône */
+    gap: 8px; 
     text-decoration: none;
     color: var(--text-main);
     font-weight: 500;
@@ -575,12 +574,14 @@ body.dark-mode .tech-tag { border-color: rgba(255,255,255,0.1); }
 
 .repo-link:hover {
     color: var(--accent-color);
-    transform: translateX(3px); /* Petit décalage vers la droite au survol */
+    transform: translateX(3px); 
 }
 
 .repo-link:hover .repo-text {
     opacity: 1;
 }
+
+
 
 /* --- ABOUT ME --- */
 .centered { text-align: center; margin-bottom: 30px; }

@@ -27,6 +27,23 @@ Ce portfolio a été développé avec une approche **"Clean Code"** et une atten
 
 ---
 
+## Structure du Projet
+
+L'architecture du dépôt respecte une séparation stricte entre les ressources statiques, la documentation académique et la gestion de l'expérience utilisateur :
+
+```text
+.
+├── 📂 assets/           # asset visuel du projet
+├── 📂 documents/        # mon CV en pdf
+├── 📂 images/           # Captures d'écrans 
+├── 📂 rapports/         # Documentation technique et dossiers de conception
+├── 📂 temporaires/       # Pages de test et travaux en cours (Maintenance, Démos)
+├── 📄 index.html        # Point d'entrée principal (Portfolio)
+├── 📄 404.html          # Page d'erreur personnalisée (Gestion des URLs invalides)
+├── 📄 script.js         # Logique : Multilingue, Thèmes et Animations
+├── 📄 style.css         # Design : Responsive, Dark Mode et Mise en page
+└── 📄 README.md         # Documentation technique du projet
+
 ##  Projets Mis en Avant
 Le portfolio regroupe mes réalisations majeures en tant qu'étudiante ingénieure :
 

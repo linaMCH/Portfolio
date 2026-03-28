@@ -1,9 +1,29 @@
+/* NAVIGATION FLUIDE */
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+}
+
+.reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease-out;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
 /* --- VARIABLES --- */
 :root {
     --bg-color: #f7edf2;
     --text-main: #1a1a1a;
     --text-muted: #545151;
-    --accent-color: #b799b3; /* Bleu (Light Mode) */
+    --accent-color: #b799b3; 
     --font-size-nav: 0.85rem;
     --font-size-sub: 0.95rem;
     --card-bg: #ffffff;
@@ -13,7 +33,7 @@ body.dark-mode {
     --bg-color:#121212;
     --text-main: #ffffff;
     --text-muted: #9b9b9b;
-    --accent-color: #c7bfde; /* Violet (Dark Mode) */
+    --accent-color: #c7bfde;
     --card-bg: #1a1a1a;
 }
 
@@ -30,8 +50,10 @@ body {
 .container {
     max-width: 900px;
     margin: 0 auto;
-    padding: 60px 8%; /* Décolle le contenu des bords gauche/droite */
+    padding: 60px 8%; 
 }
+
+
 
 /* --- NAVIGATION --- */
 nav {
@@ -136,7 +158,7 @@ body.dark-mode .hero-img .img-dark { display: block; margin: 0 auto; max-width: 
     border: 1px solid rgba(0,0,0,0.1);
     border-radius: 50%;
     color: var(--text-muted);
-    display: flex; /* Assure que le padding est bien centré */
+    display: flex; 
 }
 
 
@@ -157,11 +179,11 @@ body.dark-mode .section-title { border-bottom-color: rgba(255,255,255,0.1); }
 .cv-download-btn {
     display: flex;
     align-items: center;
-    gap: 10px; /* Espace entre l'icône et le texte */
+    gap: 10px; 
     padding: 10px 20px;
     background-color: transparent;
-    border: 1px solid rgba(0,0,0,0.1); /* Bordure légère au lieu du cercle */
-    border-radius: 20px; /* Bords arrondis de type "pilule" */
+    border: 1px solid rgba(0,0,0,0.1); 
+    border-radius: 20px; 
     color: var(--text-muted);
     text-decoration: none;
     font-size: 0.85rem;
@@ -177,7 +199,7 @@ body.dark-mode .cv-download-btn {
 .social-icons-hero .cv-download-btn:hover {
     color: var(--text-main);
     border-color: rgba(0,0,0,0.2);
-    transform: translateY(-2px); /* Petit effet de soulèvement */
+    transform: translateY(-2px); 
 }
 
 body.dark-mode .social-icons-hero a:hover i,

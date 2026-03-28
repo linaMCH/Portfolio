@@ -1,107 +1,106 @@
 #  Portfolio — Lina Maouche
-> **Étudiante en Génie Logiciel (ING3) | Université de Béjaïa**
+> **Software Engineering Student (ING3) | University of Béjaïa**
 
-Bienvenue sur le dépôt de mon portfolio personnel. Ce projet est une vitrine interactive de mon parcours académique et technique, conçue pour présenter mes compétences en développement, mes projets phares et mes certifications.
+Welcome to my personal portfolio repository. This project serves as an interactive showcase of my academic and technical journey, designed to highlight my development skills, key projects, and certifications.
 
 <p align="center">
-  <a href="https://linamch.github.io/Portfolio/">
-    <img src="assets/img/screenshot.png" alt="Aperçu du Portfolio" width="700" style="border-radius: 10px; border: 1px solid #e5e7eb;">
-  </a>
-  <br>
-  <em>Cliquez sur l'image pour accéder au site en direct</em>
+<a href="https://linamch.github.io/Portfolio/">
+<img src="assets/img/screenshot.png" alt="Portfolio Preview" width="700" style="border-radius: 10px; border: 1px solid #e5e7eb;">
+</a>
+
+
+<em>Click the image to visit the live site</em>
 </p>
 
 ---
 
-## Architecture & Stack Technique
-Ce portfolio a été développé avec une approche **"Clean Code"** et une attention particulière portée à l'expérience utilisateur (UX) :
+## Architecture & Technical Stack
+This portfolio was developed using a **"Clean Code"** approach with a strong focus on User Experience (UX):
 
-* **Frontend :** HTML5 sémantique, CSS3 (Flexbox & Grid), JavaScript.
-* **UI/UX :** * Design **Responsive** (optimisé pour mobile, tablette et desktop).
-    * Système de **Thème Dynamique** (Dark/Light Mode).
-    * Architecture bilingue (Français/Anglais).
-* **Gestion des Erreurs :** Pages d'erreurs (404) personnalisées pour garantir une navigation fluide et cohérente avec le design global.
-* **Gestion des États :** Architecture multi-pages incluant des vues dédiées pour la maintenance (`maintenance.html`) et les états d'attente (`attente.html`), offrant une expérience utilisateur fluide même lors des mises à jour.
-* **Performance :** Optimisation du rendu pour l'exportation PDF via les `@media print`.
-* **Déploiement :** GitHub Pages avec intégration continue.
+* **Frontend:** Semantic HTML5, CSS3 (Flexbox & Grid), JavaScript.
+* **UI/UX:** * **Responsive Design** (optimized for mobile, tablet, and desktop).
+    * **Dynamic Theme System** (Dark/Light Mode).
+    * Bilingual architecture (English/French).
+* **Error Handling:** Custom 404 error pages to ensure smooth navigation consistent with the overall design.
+* **State Management:** Multi-page architecture including dedicated views for maintenance (`maintenance.html`) and pending states (`attente.html`), providing a seamless user experience during updates.
+* **Performance:** Print-ready rendering optimization via `@media print` for PDF exports.
+* **Deployment:** GitHub Pages with Continuous Integration.
 
 ---
 
-## Structure du Projet
+## Project Structure
 
-L'architecture du dépôt respecte une séparation stricte entre les ressources statiques, la documentation académique et la gestion de l'expérience utilisateur :
+The repository architecture maintains a strict separation between static assets, academic documentation, and user experience management:
 
 ```text
 .
-├── 📂 assets/           # asset visuel du projet
-├── 📂 documents/        # mon CV en pdf
-├── 📂 images/           # Captures d'écrans 
-├── 📂 rapports/         # Documentation technique et dossiers de conception
-├── 📂 temporaires/       # Pages de test et travaux en cours (Maintenance, Démos)
-├── 📄 index.html        # Point d'entrée principal (Portfolio)
-├── 📄 404.html          # Page d'erreur personnalisée (Gestion des URLs invalides)
-├── 📄 script.js         # Logique : Multilingue, Thèmes et Animations
-├── 📄 style.css         # Design : Responsive, Dark Mode et Mise en page
-└── 📄 README.md         # Documentation technique du projet
+├── 📂 assets/         # Project visual assets
+├── 📂 documents/      # Resume/CV in PDF format
+├── 📂 images/         # Project screenshots
+├── 📂 rapports/       # Technical documentation and design folders
+├── 📂 temporaires/    # Test pages and work-in-progress (Maintenance, Demos)
+├── 📄 index.html      # Main entry point (Portfolio)
+├── 📄 404.html        # Custom error page (Invalid URL handling)
+├── 📄 script.js       # Logic: Multilingual support, Themes, and Animations
+├── 📄 style.css       # Design: Responsive, Dark Mode, and Layout
+└── 📄 README.md       # Technical project documentation
 ```
-##  Projets Mis en Avant
-Le portfolio regroupe mes réalisations majeures en tant qu'étudiante ingénieure :
+## Featured Projects
+The portfolio brings together my major achievements as an engineering student:
 
-* **PharmaGO :** Application desktop de gestion de livraison pharmaceutique (JavaFX).
-* **Compilateur C :** Développement d'un compilateur complet écrit en Java.
-* **Assirem Natation :** Plateforme web de gestion pour club de natation (En cours - 2025/2026).
-* **Cinely :** Système de billetterie et gestion de cinéma.
-
----
-
-##  Certifications & Formations
-* **Anglais :** Certification Syken College x Cambridge University (Niveau International).
-* **Algorithmique :** Attestations de formation ATS (LESAMISDEJAVA) & TUSNA en Algorithmique et Structures de données.
-* **Python :** Certification de programmation (TUSNA) incluant le développement de jeux.
-* **Cursus :** Baccalauréat Mathématiques (Mention Très Bien).
-
+* **PharmaGO:** Desktop application for pharmaceutical delivery management (JavaFX).
+* **C Compiler:** Development of a full-scale compiler written in Java.
+* **Assirem Natation:** Web management platform for a swimming club (In progress - 2025/2026).
+* **Cinely:** Cinema ticketing and management system.
 
 ---
 
-## Démarrage Rapide
+## Certifications & Education
+* **English:** Syken College x Cambridge University Certification (International Level).
+* **Algorithms:** ATS (LESAMISDEJAVA) & TUSNA Training Certificates in Algorithms and Data Structures.
+* **Python:** Programming Certification (TUSNA) including game development.
+* **Academic Path:** Mathematics Baccalaureate (High Honors).
+---
 
-Suivez ces étapes pour installer et visualiser le projet sur votre machine locale :
+## Quick Start
 
-### 1. Prérequis
-Assurez-vous d'avoir **Git** installé sur votre système (utilisez la commande `git --version` pour vérifier).
+Follow these steps to set up and view the project on your local machine:
 
-### 2. Installation & Configuration
-Ouvrez votre terminal et exécutez les commandes suivantes :
+### 1. Prerequisites
+Ensure you have **Git** installed on your system (use the command `git --version` to check).
+
+### 2. Installation & Setup
+Open your terminal and run the following commands:
 
 ```bash
-# 1. Copie du projet sur votre ordinateur (Clonage)
-git clone https://github.com/linaMCH/votre-repo.git
-# 2. Accès au répertoire du projet
+# 1. Clone the project to your computer
+git clone [https://github.com/linaMCH/votre-repo.git](https://github.com/linaMCH/votre-repo.git)
+# 2. Access the project directory
 cd votre-repo
 ```
 
 
 
 
-### 3. Visualisation
-Ce projet étant statique (HTML/CSS), aucune installation de dépendances n'est requise. Ouvrez simplement le fichier `index.html` dans votre navigateur.
+### 3. Viewing the Project
+Since this is a static project (HTML/CSS), no dependency installation is required. Simply open the `index.html` file in your preferred web browser.
 
 ---
 
-##  Évolutions Futures
-* **Sécurité :** Implémentation de l'en-tête de sécurité Content Security Policy (CSP).
-* **Backend :** Migration vers une architecture Serverless pour le formulaire de contact.
-* **Accessibilité :** Audit complet de conformité aux normes WCAG 2.1.
-* **Performance :** Optimisation des images et minification des ressources CSS/JS.
+## Future Enhancements
+* **Security:** Implementation of Content Security Policy (CSP) headers.
+* **Backend:** Migration to a Serverless architecture for the contact form.
+* **Accessibility:** Full audit for WCAG 2.1 compliance.
+* **Performance:** Image optimization and CSS/JS resource minification.
 
 ---
 
-## Contact & Liens
-Je suis ouverte aux opportunités de stages et aux collaborations techniques.
+## Contact & Links
+I am open to internship opportunities and technical collaborations.
 
-* **GitHub :** [@linaMCH](https://github.com/linaMCH)
-* **LinkedIn :** [Lina Maouche](https://www.linkedin.com/in/lina-maouche-774510334)
-* **Email :** maouchelina458@gmail.com
+* **GitHub:** [@linaMCH](https://github.com/linaMCH)
+* **LinkedIn:** [Lina Maouche](https://www.linkedin.com/in/lina-maouche-774510334)
+* **Email:** maouchelina458@gmail.com
 
 ---
 *Built with ❤️ by Lina Maouche — © 2026*

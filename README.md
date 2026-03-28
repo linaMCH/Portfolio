@@ -4,12 +4,12 @@
 Welcome to my personal portfolio repository. This project serves as an interactive showcase of my academic and technical journey, designed to highlight my development skills, key projects, and certifications.
 
 <p align="center">
-<a href="https://linamch.github.io/Portfolio/">
-<img src="assets/img/screenshot.png" alt="Portfolio Preview" width="700" style="border-radius: 10px; border: 1px solid #e5e7eb;">
-</a>
+   <a href="https://linamch.github.io/Portfolio/">
+      <img src="assets/img/screenshot.png" alt="Portfolio Preview" width="700" style="border-radius: 10px; border: 1px solid #e5e7eb;">
+   </a><br>
 
 
-<em>Click the image to visit the live site</em>
+   <em>Click the image to visit the live site</em>
 </p>
 
 ---

@@ -43,7 +43,7 @@ L'architecture du dépôt respecte une séparation stricte entre les ressources 
 ├── 📄 script.js         # Logique : Multilingue, Thèmes et Animations
 ├── 📄 style.css         # Design : Responsive, Dark Mode et Mise en page
 └── 📄 README.md         # Documentation technique du projet
-
+```
 ##  Projets Mis en Avant
 Le portfolio regroupe mes réalisations majeures en tant qu'étudiante ingénieure :
 
@@ -51,7 +51,7 @@ Le portfolio regroupe mes réalisations majeures en tant qu'étudiante ingénieu
 * **Compilateur C :** Développement d'un compilateur complet écrit en Java.
 * **Assirem Natation :** Plateforme web de gestion pour club de natation (En cours - 2025/2026).
 * **Cinely :** Système de billetterie et gestion de cinéma.
-```
+
 ---
 
 ##  Certifications & Formations

@@ -4,7 +4,7 @@
 Bienvenue sur le dépôt de mon portfolio personnel. Ce projet est une vitrine interactive de mon parcours académique et technique, conçue pour présenter mes compétences en développement, mes projets phares et mes certifications.
 
 <p align="center">
-  <a href="https://github.com/linaMCH">
+  <a href="https://linamch.github.io/Portfolio/">
     <img src="assets/img/screenshot.png" alt="Aperçu du Portfolio" width="700" style="border-radius: 10px; border: 1px solid #e5e7eb;">
   </a>
   <br>

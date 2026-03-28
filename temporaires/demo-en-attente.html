@@ -44,15 +44,24 @@
         </div>
     </div>
     <script>
-       function setLanguage(lang) {
+        function setLanguage(lang) {
+        
             document.getElementById('content-fr').style.display = (lang === 'fr') ? 'block' : 'none';
             document.getElementById('content-en').style.display = (lang === 'en') ? 'block' : 'none';
-        }
-        const userLang = navigator.language || navigator.userLanguage; 
-        if (userLang.startsWith('en')) setLanguage('en');
         
+        
+            localStorage.setItem('language', lang);
+    }
 
+    
+        (function() {
         
+            const savedLang = localStorage.getItem('language');
+            const browserLang = (navigator.language || navigator.userLanguage).startsWith('en') ? 'en' : 'fr';
+        
+        
+            setLanguage(savedLang || browserLang);
+        })();
     </script>
 </body>
 </html>

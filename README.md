@@ -51,7 +51,7 @@ Le portfolio regroupe mes réalisations majeures en tant qu'étudiante ingénieu
 * **Compilateur C :** Développement d'un compilateur complet écrit en Java.
 * **Assirem Natation :** Plateforme web de gestion pour club de natation (En cours - 2025/2026).
 * **Cinely :** Système de billetterie et gestion de cinéma.
-
+```
 ---
 
 ##  Certifications & Formations

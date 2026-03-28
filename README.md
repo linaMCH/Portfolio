@@ -43,7 +43,7 @@ L'architecture du dépôt respecte une séparation stricte entre les ressources 
 ├── 📄 script.js         # Logique : Multilingue, Thèmes et Animations
 ├── 📄 style.css         # Design : Responsive, Dark Mode et Mise en page
 └── 📄 README.md         # Documentation technique du projet
-
+```
 ##  Projets Mis en Avant
 Le portfolio regroupe mes réalisations majeures en tant qu'étudiante ingénieure :
 
